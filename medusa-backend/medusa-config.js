@@ -23,7 +23,7 @@ try {
 
 // CORS when consuming Medusa from admin
 const ADMIN_CORS =
-  process.env.ADMIN_CORS || "http://3.108.250.58:7000,http://3.108.250.58:7001";
+  process.env.ADMIN_CORS || "http://3.108.250.58:8000,http://3.108.250.58:8001";
 
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS = process.env.STORE_CORS || "http://3.108.250.58:8000";
