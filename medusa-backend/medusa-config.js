@@ -29,7 +29,7 @@ const ADMIN_CORS =
 const STORE_CORS = process.env.STORE_CORS || "http://3.108.250.58:8000";
 
 const DATABASE_URL =
-  process.env.DATABASE_URL || "database-2-instance-1.cb2m8ekc806k.ap-south-1.rds.amazonaws.com";
+  process.env.DATABASE_URL || "postgres://postgres:Rajiv41234@database-2-instance-1.cb2m8ekc806k.ap-south-1.rds.amazonaws.com:5432/database-1";
 
 const REDIS_URL = process.env.REDIS_URL || "redis-7gsnbl.serverless.aps1.cache.amazonaws.com:6379";
 
